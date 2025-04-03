@@ -1,5 +1,97 @@
-
 a {
-	text-decoration-thickness: 1px !important;
-	text-underline-offset: .1em;
+  text-decoration-thickness: 1px !important;
+  text-underline-offset: 0.1em;
+}
+/* Style général */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+main {
+  padding: 20px;
+}
+
+/* Section hero */
+.hero {
+  text-align: center;
+  background-color: #ffcc80;
+  padding: 40px 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+/* Liste des jeux */
+.game-list {
+  margin-top: 20px;
+}
+
+.game-list h2 {
+  font-size: 2rem;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.game {
+  background-color: #ffffff;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.game h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.game p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.game a {
+  font-size: 1rem;
+  color: #ff6f61;
+  text-decoration: none;
+}
+
+.game a:hover {
+  text-decoration: underline;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .game h3 {
+    font-size: 1.2rem;
+  }
+
+  .game p {
+    font-size: 0.9rem;
+  }
 }
